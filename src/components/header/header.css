@@ -72,7 +72,7 @@
         transition: .3s;
     }
 
-     /* Show menu */
+     /* Show Menu */
      .show-menu{
         bottom: 0;
     }
@@ -92,7 +92,7 @@
         right: 1.3rem;
         bottom: .5rem;
         font-size: 1.5rem;
-        cursor: pointer;
+        cursor:pointer;
         color: var(--title-color);
     }
     .nav__close:hover {
@@ -110,7 +110,7 @@
         display: block;
     }
   }
-/* For small Screens */
+   
   @media screen and (max-width: 350px) {
       .nav__menu{
         padding: 2rem 0.25rem 4rem;

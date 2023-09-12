@@ -17,6 +17,7 @@
 
 
   /*------ Fonts  ------*/
+  --body-font: "Poppins",sans-serif; 
   font-family: 'Poppins', sans-serif;
 
   /*------ .5rem = 8px  |  1rem = 16px ------*/
@@ -38,7 +39,7 @@
   --font-semi-bold:600;
 
 
-  /*------Margenes Bottom------*/
+  /*------Margines Bottom------*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -53,6 +54,8 @@
   --z-fixed:100;
   --z-modal:1000;
 }
+
+
 
 /*------Responsive Typography------*/
 @media screen and (max-width: 992px) {
@@ -87,6 +90,7 @@ input,
 textarea{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  background-color: black;
 }
 
 body{
