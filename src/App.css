@@ -91,6 +91,7 @@ textarea{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: black;
+  color: black;
 }
 
 body{
@@ -114,6 +115,7 @@ button{
   cursor: pointer;
   border: none;
   outline: none;
+  background-color: black !important;
 }
 
 img{
