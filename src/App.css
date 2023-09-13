@@ -67,9 +67,7 @@
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
-    
   }
-  
 }
 
 
@@ -90,8 +88,7 @@ input,
 textarea{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: black;
-  color: black;
+  
 }
 
 body{
@@ -115,7 +112,7 @@ button{
   cursor: pointer;
   border: none;
   outline: none;
-  background-color: black !important;
+  background-color: #2C3A47 !important;
 }
 
 img{
