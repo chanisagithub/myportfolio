@@ -120,3 +120,45 @@
         column-gap: 0;
       }
   }
+
+  /*------ BREAKPOINTS ------*/
+  @media screen and (max-width: 992px) {
+    .home__content{
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 4.25rem;
+    }
+    .home__hand{
+        width: 26px;
+        height: 26px;
+    }
+    .home__subtitle{
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+    .home__subtitle::before{
+        width: 42px;
+        top: 0.8rem;
+    }
+    .home__description{
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home__img{
+        width: 250px;
+        height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    
+  }
+
+  @media screen and (max-width: 576px) {
+    
+  }
+
+  @media screen and (max-width: 350px) {
+    
+    
+  }
