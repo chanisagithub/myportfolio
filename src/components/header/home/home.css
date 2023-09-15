@@ -68,7 +68,7 @@
     justify-self: center;
     width: 300px;
     height: 300px;
-    animation: profile__animate 5s ease-in-out infinite 20ms;
+    animation: profile__animate 5s ease-in-out infinite 1s;
 }
 
 @keyframes profile__animate{
@@ -114,3 +114,73 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
+
+  /*------ BREAKPOINTS ------*/
+  @media screen and (max-width: 992px) {
+    .home__content{
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 4.25rem;
+    }
+    .home__hand{
+        width: 26px;
+        height: 26px;
+    }
+    .home__subtitle{
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+    .home__subtitle::before{
+        width: 42px;
+        top: 0.8rem;
+    }
+    .home__description{
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home__img{
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 7px rgb(255 255 255 / 30%);
+
+    }
+
+    .home__scroll{
+        margin-left: 7.5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .home__content{
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+
+    .home__img{
+        order: initial;
+        justify-self: initial;
+    }
+    .home__data{
+        grid-column: 1/3;
+    }
+    .home__img{
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+        width: 200px;
+        height: 200px;
+    }
+    .home__scroll{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .home__img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .home__hand{
+        width: 22px;
+        height: 22px;
+    }
+  }
