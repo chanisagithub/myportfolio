@@ -17,8 +17,8 @@
 
 
   /*------ Fonts  ------*/
-  --body-font: "Poppins",sans-serif; 
-  font-family: 'Poppins', sans-serif;
+  --body-font: "Poppins",sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
 
   /*------ .5rem = 8px  |  1rem = 16px ------*/
 
@@ -61,7 +61,7 @@
 @media screen and (max-width: 992px) {
   :root {
     --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
+    --h1-font-size: 2.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
@@ -112,13 +112,13 @@ button{
   cursor: pointer;
   border: none;
   outline: none;
-  background-color: #2C3A47 !important;
+  background-color: #2C3A47;
 }
 
 img{
   max-width: 100%;
   height: auto;
-} 
+}
 
   /*------Reusable CSS------*/
 
@@ -128,7 +128,7 @@ img{
 
   .section_title{
     font-size: var(--h1-font-size);
-    color: var(--titile-color);
+    color: var(--title-color);
   }
 
   .section_subtitle{
@@ -165,7 +165,7 @@ img{
     }
 
     .button:hover{
-      background-color: var(--titile-color-dark);
+      background-color: var(--title-color-dark);
     }
     .button_icon {
       margin-left: var(--mb-0-5);
@@ -206,7 +206,7 @@ img{
 
     @media screen and (max-width: 350px) {
       :root{
-        --big-font-size: 4.25rem;
+        --big-font-size: 1.25rem;
       }
       .container{
         margin-left: var(--mb-1);
