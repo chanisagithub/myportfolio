@@ -55,7 +55,7 @@
 
 .home__description{
     max-width: 400px;
-    margin-bottom: var(--mbb-3);
+    margin-bottom: var(--mb-3);
 }
 
 .home__img{
@@ -119,20 +119,24 @@
   @media screen and (max-width: 992px) {
     .home__content{
         grid-template-columns: 100px repeat(2, 1fr);
-        column-gap: 4.25rem;
+        column-gap: 1.25rem;
     }
+
     .home__hand{
         width: 26px;
         height: 26px;
     }
+
     .home__subtitle{
         padding-left: 3.75rem;
         margin-bottom: var(--mb-1);
     }
+
     .home__subtitle::before{
         width: 42px;
         top: 0.8rem;
     }
+
     .home__description{
         max-width: initial;
         margin-bottom: var(--mb-2-5);
@@ -148,6 +152,7 @@
     .home__scroll{
         margin-left: 7.5rem;
     }
+    
   }
 
   @media screen and (max-width: 768px) {
