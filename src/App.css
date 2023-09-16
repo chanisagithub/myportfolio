@@ -62,14 +62,13 @@
   :root {
     --big-font-size: 2.75rem;
     --h1-font-size: 2.5rem;
-    --h2-font-size: 1.25rem;
+    --h2-font-size: 2.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
   }
 }
-
 
 /*------ Base  ------*/
 *{
@@ -88,7 +87,6 @@ input,
 textarea{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  
 }
 
 body{
@@ -100,6 +98,7 @@ h1,h2,h3{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
+
 ul {
   list-style: none;
 }
@@ -126,19 +125,19 @@ img{
     padding: 6rem 0 2rem;
   }
 
-  .section_title{
+  .section__title{
     font-size: var(--h1-font-size);
     color: var(--title-color);
   }
 
-  .section_subtitle{
+  .section__subtitle{
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: 4rem;
   }
 
-  .section_title,
-  .section_subtitle{
+  .section__title,
+  .section__subtitle{
     text-align: center;
   }
 
@@ -157,7 +156,7 @@ img{
     /*------ Buttons ------*/
     .button{
       display: inline-block;
-      background-color: var(--titile-color);
+      background-color: var(--title-color);
       color: var(--container-color);
       padding: 1.25rem 2rem;
       border-radius: 1rem;
@@ -167,7 +166,7 @@ img{
     .button:hover{
       background-color: var(--title-color-dark);
     }
-    .button_icon {
+    .button__icon {
       margin-left: var(--mb-0-5);
     }
 
