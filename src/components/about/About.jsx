@@ -1,8 +1,8 @@
 import React from 'react'
-import "./about.css"
-import AboutImg from "../../assets/about.JPG"
 import CV from "../../assets/CV-Chanisa jayawardhana.pdf"
-import info from './info'
+import AboutImg from "../../assets/about.JPG"
+import Info from './Info'
+import "./about.css"
 
 const About = () => {
     return (
@@ -14,7 +14,7 @@ const About = () => {
                 <img src={AboutImg} alt="" className="about__img" />
 
                 <div className="about__data">
-                    <info />
+                    <Info />
                     <p className="about__description">A passionate software engineering trainee with a hunger for cutting-edge I.T. technologies. Committed to mastering code and tackling intricate challenges, I'm all about innovation and elegant solutions.
                     </p>
                     <a download="" href={CV} className="button
