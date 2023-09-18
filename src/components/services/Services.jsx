@@ -3,7 +3,6 @@ import '../services/services.css'
 
 const Services = () => {
     const [toggleState,setToggleState] =useState(0);
-
     const toggleTab = (index) =>{
         setToggleState(index);
     }
